@@ -6,4 +6,9 @@ CREATE TABLE basics.students (
   email TEXT NOT NULL UNIQUE,
   age INTEGER CHECK (age >= 18),
   created_at TIMESTAMP DEFAULT NOW() -- if a value is not provided, is NOW()
-)
+);
+
+INSERT INTO basics.students (name, email, age)
+VALUES 
+  ('Student1', 'student1@email', 20),
+  ('Student2', 'student2@email', 21);
