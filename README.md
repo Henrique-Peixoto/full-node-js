@@ -1,2 +1,1 @@
-# full-node-js
-Some studies on Node and other fullstack techs
+Review on Node.js and PostgreSQL concepts.
